@@ -1,0 +1,40 @@
+.eimg {
+    position: relative;
+    animation-name: intro-img-effect;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  @keyframes intro-img-effect {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:0px; transform: scale(1.05);}
+    50%  {left:0px; top:10px;}
+    75%  {left:0px; top:10px; transform: scale(1.05);}
+    100% {left:0px; top:0px;}
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #439aff;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1c4fc3;
+  }
+  html,body,h1,h2,h3,p,font,span,div{
+  cursor:url("../img/p_9061s7581.png"), auto;
+  }
+  a, a:hover, ul:hover, li:hover, button:hover, .btn:hover, .span:hover, .menu-title:hover{
+  cursor:url("../img/p_90699thl1.png"), auto;
+  }
+  .icon img{
+    margin-left: 25px;
+    width: 80px;
+    position: relative;
+    left: -10px;
+    border-radius: 15px;
+  }
+  

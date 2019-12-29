@@ -1,0 +1,195 @@
+.tesr{color:#fff;
+text-align: center;
+margin-bottom:50px;
+margin-top:30px}
+.whi{color:#fff;}
+.whii{margin-bottom:30px}
+
+.blue{background: #00428a}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color: #fff;
+}
+
+
+.arlo_tm_contact_wrap_all{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: #00428a;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.arlo_tm_contact_wrap_all .leftbox{
+	width: 40%;
+	height: auto;
+	float: left;
+	padding-right: 40px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */		
+}
+.arlo_tm_contact_wrap_all .leftbox .short_info_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.arlo_tm_contact_wrap_all .leftbox .short_info_wrap ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.arlo_tm_contact_wrap_all .leftbox .short_info_wrap ul li{
+	margin: 0px 0px 15px 0px;
+}
+.arlo_tm_contact_wrap_all .leftbox .short_info_wrap ul li label{
+	font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 13px;
+    color: #fff;
+}
+.arlo_tm_contact_wrap_all .leftbox .short_info_wrap ul li span{padding-left: 5px;}
+.arlo_tm_contact_wrap_all .leftbox .short_info_wrap ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.arlo_tm_contact_wrap_all .rightbox{
+	width: 60%;
+	height: auto;
+	float: right;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */		
+}
+.arlo_tm_contact_wrap{
+	max-width: 830px;
+	height: auto;
+	margin: 0px auto;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.arlo_tm_contact_wrap .subtitle{
+	text-align: center;
+	margin-bottom: 69px;
+}
+.arlo_tm_contact_wrap .subtitle p{color: #333;}
+.arlo_tm_contact_wrap .main_input_wrap{
+	margin-bottom: 75px;
+	position: relative;
+	top: -24px;
+}
+.arlo_tm_contact_wrap .main_input_wrap,
+.arlo_tm_contact_wrap .main_input_wrap .wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.arlo_tm_contact_wrap .main_input_wrap .wrap{margin-bottom: 20px;}
+.arlo_tm_contact_wrap .main_input_wrap .wrap input{
+	width: 100%;
+	text-align: left;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	padding-left: 0px !important;
+}
+.arlo_tm_contact_wrap .main_input_wrap .wrap input:focus{
+	outline: none;
+}
+.arlo_tm_contact_wrap .main_input_wrap .wrap textarea{
+	width: 100%;
+	height: 80px;
+	text-align: left;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(255,255,255,1);
+	color: #fff;
+	padding-left: 0px !important;
+}
+.arlo_tm_contact_wrap .main_input_wrap .wrap textarea:focus{
+	outline: none;
+}
+.arlo_tm_contact_wrap .arlo_tm_button a{
+	text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    font-weight: 600;
+    font-family: "Montserrat";
+    padding: 12px 35px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.arlo_tm_contact_wrap .arlo_tm_button a:before{
+	position: absolute;
+    content: "";
+    top: 0px;
+    height: 100%;
+    left: -25%;
+    width: 0%;
+    background-color: #041230;
+    transform: skew(50deg);
+    transition-duration: .6s;
+    z-index: 1;
+}
+.arlo_tm_contact_wrap .arlo_tm_button a:hover:before{width: 170%;}
+.arlo_tm_contact_wrap .arlo_tm_button a span{
+	position: relative;
+	z-index: 2;
+}
+.arlo_tm_contact_wrap .empty_notice{
+	color: #BD0A0D;
+	margin-bottom: 7px;
+	display: none;
+	text-align: left;
+}
+.arlo_tm_contact_wrap .contact_error{
+	color: rgba(255,0,4,1.00);
+	text-align: left;
+}
+.arlo_tm_contact_wrap .returnmessage{
+	color:#0064FF;
+	margin-bottom: 7px;
+	text-align: left;
+}
+
+
+@media (max-width: 1200px) {
+	.arlo_tm_contact_wrap_all .leftbox{width: 100%;padding-right: 0px;margin-bottom: 19px;}
+	.arlo_tm_contact_wrap_all .rightbox{width: 100%;float: none;}
+}

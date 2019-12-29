@@ -1,0 +1,130 @@
+html,body{
+  overflow-x: hidden;
+}
+body{
+    direction: rtl;
+    text-align: right;
+
+}
+
+.float-left{
+    float: right!important;
+}
+.float-right{   
+     float: left!important;
+}
+#intro .intro-img {
+    width: 50%;
+    float: left;
+  }
+  #intro .intro-info {
+    width: 50%;
+    float: right;
+  }
+
+  
+  #intro .intro-info .btn-services {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 0 20px 20px 410px;
+    color: #fff;
+    background: #007bff;
+    border: 2px solid #007bff;
+   }  
+   .icon img{
+    margin-left:25px;
+   }
+   .mobile-nav-toggle {
+    text-align: right;
+   }
+   .mobile-nav-active .mobile-nav {
+    right: 0;
+   }
+   .back-to-top {
+    position: fixed;
+    display: none;
+    background: #007bff;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    left: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+  }
+  .mobile-nav .drop-down > a:after {
+    content: "\f078";
+    font-family: FontAwesome;
+    padding-left: 10px;
+    position: absolute;
+    left: 15px;
+  }
+  .mobile-nav-toggle {
+    left: 0;
+    text-align: left;
+
+  }
+
+  @media (max-width: 767px) {
+    #intro .intro-info {
+      width: 100%;
+    }
+  
+    #intro .intro-info h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+  
+    .section-header p {
+      width: 100%;
+    }
+  
+    #testimonials .testimonial-item {
+      text-align: center;
+    }
+  
+    #testimonials .testimonial-item .testimonial-img {
+      float: none;
+      margin: auto;
+    }
+  
+    #testimonials .testimonial-item h3,
+    #testimonials .testimonial-item h4,
+    #testimonials .testimonial-item p {
+      margin-left: 0;
+    }
+    
+  }
+  .arlo_tm_contact_wrap_all .rightbox{
+    width: 60%;
+    height: auto;
+    float: left;
+  }
+  .arlo_tm_contact_wrap_all .leftbox{
+    width: 40%;
+    height: auto;
+    float: right;
+  }  
+    .arlo_tm_contact_wrap .main_input_wrap .wrap{
+    
+      float: right;
+      
+    }
+    .arlo_tm_contact_wrap .main_input_wrap .wrap input{
+      text-align: right;
+      padding-right: 0px !important;
+    }
+    
+    .arlo_tm_contact_wrap .main_input_wrap .wrap textarea{
+      text-align: right;
+    }
